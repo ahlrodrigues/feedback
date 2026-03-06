@@ -20,12 +20,18 @@ cp deploy.env.example deploy.env
 php -r 'echo password_hash("SUA_SENHA", PASSWORD_DEFAULT), PHP_EOL;'
 ```
 
-## Git (primeiro commit)
+## Publicação
 ```bash
-git add .
-git commit -m "feat: setup inicial do formulário, processamento e painel"
+Use o fluxo documentado em `DEPLOY.md`.
 ```
 
-## Publicação
-Use o fluxo documentado em `DEPLOY.md`.
-# feedback
+**GNU General Public License:**
+-------------------------------
+```
+Estes scripts/programas são softwares livres, você pode redistribuí-los e/ou modifica-los
+dentro dos termos da Licença Pública Geral GNU:
+```
+> [General Public License](https://pt.wikipedia.org/wiki/GNU_General_Public_License)
+>
+>Fundação do Software Livre (FSF) Inc. 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
