@@ -1,13 +1,10 @@
 # Publicar no FTP/SFTP
 
 1. Instale o `lftp` (uma vez):
-```bash
-sudo apt update && sudo apt install -y lftp
-```
+
 
 2. Crie sua configuracao local:
 ```bash
-cd /home/ahlr/Dropbox/Projetos/Feedback
 cp deploy.env.example deploy.env
 ```
 
