@@ -1,0 +1,6 @@
+deploy.env
+data/*.sqlite
+data/*.db
+data/*.backup.sqlite
+*.log
+.DS_Store
